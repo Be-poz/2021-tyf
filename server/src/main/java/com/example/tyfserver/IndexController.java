@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class IndexController {
 
-    private final Key key;
+//    private final Key key;
 
     @GetMapping("/nores")
     public String asdf() {
@@ -37,8 +37,8 @@ public class IndexController {
         return "dfsfdsfa";
     }
 
-    @GetMapping("/key")
-    public String key() {
-        return key.getSecret();
-    }
+//    @GetMapping("/key")
+//    public String key() {
+//        return key.getSecret();
+//    }
 }

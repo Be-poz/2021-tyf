@@ -27,9 +27,4 @@ public class IndexController {
     public String qqq() {
         return "qqq";
     }
-
-    @GetMapping("plz")
-    public String plz() {
-        return "plz";
-    }
 }

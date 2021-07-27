@@ -24,7 +24,7 @@ public class IndexController {
 
     @GetMapping("/fds")
     public String fds() {
-        return "fds";
+        return "fdsf";
     }
 
     @GetMapping("/zxc")

@@ -30,6 +30,6 @@ public class IndexController {
 
     @GetMapping("/fff")
     public String fff() {
-        return "s";
+        return "sd";
     }
 }

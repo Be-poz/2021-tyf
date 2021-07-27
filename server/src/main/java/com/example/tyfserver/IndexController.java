@@ -22,4 +22,9 @@ public class IndexController {
     public String fds() {
         return "fds";
     }
+
+    @GetMapping("/zxc")
+    public String zxc() {
+        return "zxc";
+    }
 }

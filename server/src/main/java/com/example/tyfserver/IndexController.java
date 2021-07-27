@@ -27,4 +27,9 @@ public class IndexController {
     public String zxc() {
         return "zxc";
     }
+
+    @GetMapping("/fff")
+    public String fff() {
+        return "fff";
+    }
 }

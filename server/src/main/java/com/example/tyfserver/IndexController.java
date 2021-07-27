@@ -32,4 +32,9 @@ public class IndexController {
     public String plz() {
         return "plz";
     }
+
+    @GetMapping("eee")
+    public String eee() {
+        return "eee";
+    }
 }

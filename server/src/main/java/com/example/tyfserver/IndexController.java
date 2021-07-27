@@ -17,4 +17,9 @@ public class IndexController {
     public String res() {
         return "res";
     }
+
+    @GetMapping("/fds")
+    public String fds() {
+        return "fds";
+    }
 }

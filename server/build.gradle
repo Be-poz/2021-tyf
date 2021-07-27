@@ -44,3 +44,10 @@ asciidoctor {
     inputs.dir snippetsDir
     dependsOn test
 }
+
+processResources.dependsOn('copySecret')
+
+task copySecret(type: Copy) {
+    from 'thisisprivate/application-key.yml' // auth 서브모듈에 있는 oauth 설정파일을 복사한다.
+    into 'src/main/resources'
+}

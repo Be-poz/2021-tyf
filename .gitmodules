@@ -1,0 +1,4 @@
+[submodule "server/thisisprivate"]
+	path = server/thisisprivate
+	url = https://github.com/Be-poz/thisisprivate.git
+	branch = main

@@ -34,7 +34,7 @@ public class IndexController {
 
     @GetMapping("/fff")
     public String fff() {
-        return "dfsfdsfa";
+        return "dfsfdfsfa";
     }
 
 //    @GetMapping("/key")
